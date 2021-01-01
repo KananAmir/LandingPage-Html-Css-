@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="Amirov Kanan | Website">
+    <meta name="description" content="HTML CSS Kanan | Website">
+    
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--Fonts Google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!--Font Awesome-->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!--Tablets and Mobile-->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+    <title>Amirov Kanan | Landing Page</title>
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id = navbar>
+                <a href="#home"><h1 class="heading-small">LearnToCode</h1></a>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tranings">Tranings</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+        <section id="home">
+            <img src="images/code.png" alt="">
+
+            <div class="name text-center">
+                <h2 class="heading-big">Eat Code Sleep Repeat</h2>
+                <p>Learn from us | Be talanted</p>
+            </div>
+
+            <a href="#courses" class="btn btn-primary">Go to the Courses</a>
+        </section>
+
+        <section id="tranings" class="bg-dark-blue">
+            <h3 class="text-center heading-big">Tranings</h3>
+            <div class="items">
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Class tranings</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, natus.</p>
+                </article>
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Online tranings</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, natus.</p>
+                </article>
+                <article class="item">
+                    <i class="fa fa-pencil-alt"></i>
+                    <h3>Conferances</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, natus.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="courses">
+            <h3 class="text-center heading-big">Courses</h3>
+            <div class="container">
+                <div class="courses">
+                    <!--Course 1-->
+                    <div class="course">
+                        <div class="course-image">         
+                            <img src="images/phyton.jpg" alt="">
+                            <span>90% Discount</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">
+                                Phyton Course A to Z
+                            </div>
+                            <div class="description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ex illum quo, 
+                                explicabo molestiae sequi culpa molestias error! Quod facere blanditiis voluptate. 
+                                Impedit minus iure voluptatum quasi perferendis et dignissimos? 
+                            </div>
+                            <div class="instructor">
+                                Amirov Kanan İlham
+                            </div>
+                            <div class="rating">
+                                4.6 (700 voting)
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 2-->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/java.jpg" alt="">
+                            <span>90% Discount</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">
+                                Java Course A to Z
+                            </div>
+                            <div class="description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ex illum quo, 
+                                explicabo molestiae sequi culpa molestias error! Quod facere blanditiis voluptate. 
+                                Impedit minus iure voluptatum quasi perferendis et dignissimos?
+                            </div>
+                            <div class="instructor">
+                                Amirov Kanan İlham
+                            </div>
+                            <div class="rating">
+                                4.4 (498 voting)
+                            </div>
+                        </div>
+                    </div>
+                    <!--Course 3-->
+                    <div class="course">
+                        <div class="course-image">
+                            <img src="images/javascriptjpg.jpg" alt="">
+                            <span>90% Discount</span>
+                        </div>
+                        <div class="course-info">
+                            <div class="title">
+                                Javascript Course A to Z
+                            </div>
+                            <div class="description">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque ex illum quo, 
+                                explicabo molestiae sequi culpa molestias error! Quod facere blanditiis voluptate. 
+                                Impedit minus iure voluptatum quasi perferendis et dignissimos?
+                            </div>
+                            <div class="instructor">
+                                Amirov Kanan İlham
+                            </div>
+                            <div class="rating">
+                                4.2 (576 voting)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <footer id="contact" class="bg-dark-blue">
+            <div class="contact-form">
+                <form action="">
+                    <h4 class="text-center heading-big">Contact me</h4>
+               
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">                
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" class="form-control" id="email" placeholder="Your Email">                
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea name="message" class="form-control" id="message" rows="5" placeholder="Write here...">                
+                        </textarea>
+                        </div>
+                        <button type="submit" class="btn btn-block">Send</button>
+                </form>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+</body>
+  
+</html>

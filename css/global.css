@@ -1,0 +1,94 @@
+/*Text*/
+
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-big{
+    font-size: 1.75rem;
+}
+
+/*Colors*/
+.bg-dark-blue{
+     background: darkblue;
+}
+.bg-light-blue{
+    background: lightblue;
+}
+
+/*Buttons*/
+.btn{
+    margin-top: 1.25rem;
+    padding: 0.8rem 3rem;
+    border-radius: 0.5rem;
+    letter-spacing: 0.5  px;
+}
+.btn-primary{
+    background: #336ea2;
+}
+.btn-primary:hover{
+    background: #fff;
+    color: #336ea2;;
+    border: 1px solid #336ea2;;
+}
+.btn-dark{
+    background: #333;
+}
+.btn-dark:hover{
+    background: #fff;
+    color: #333;;
+    border: 1px solid #333;
+}
+.btn-block{
+    width: 100%;
+    text-align: center;
+}
+/*Container*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*Forms*/
+.form-group{
+    padding-bottom: 0.25rem 0;
+    margin: 0 auto;
+}
+.form-group label{
+   display: block   ;
+}
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 7px;
+    resize: none  /*textareanin dinamik olaraq olcusunu deyismeye imkan vermir*/
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+    position: relative;
+    left: 36%;
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+opacity: 0.8;
+}
+#contact .contact-form label{
+    margin: 0.5rem 0;
+}
+#contact .contact-form button{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
